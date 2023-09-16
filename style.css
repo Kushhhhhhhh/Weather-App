@@ -89,3 +89,22 @@ body{
     margin-top: 10px;
     display: none; 
 }
+@media (max-width: 768px) {
+    .card {
+        width: 80%;
+        padding: 30px 25px;
+    }
+
+    .search input {
+        font-size: 16px;
+    }
+
+    .search {
+        flex-direction: column;
+    }
+
+    .search input {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
